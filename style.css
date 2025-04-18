@@ -1,0 +1,562 @@
+@font-face {
+    font-family: myfont;
+    src: url(Mongek-Regular.ttf);
+}
+
+@font-face {
+    font-family: my;
+    src: url(KerneyScript_PERSONAL_USE_ONLY.otf);
+}
+
+@font-face {
+    font-family: myf;
+    src: url(Keylock\ Fighter.ttf);
+}
+
+@font-face {
+    font-family: font;
+    src: url(Rush\ Turbo.ttf);
+}
+
+@font-face {
+    font-family: jfont;
+    src: url(MADEINFINITY\ PERSONALUSE-Thin.otf);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+* {
+
+    list-style: none;
+    text-decoration: dashed;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.name {
+    color: red;
+    text-align: center;
+    font-family: monospace;
+    padding-left: 300px;
+    padding-top: -100px;
+    font-family: my;
+    font-size: 400%;
+}
+
+.padding {
+    border: 10px solid rgba(222, 15, 15, 0);
+    align-items: center;
+    padding: 100px;
+    padding-left: 400px;
+
+}
+
+.multiText {
+    font-size: 50px;
+}
+
+.background-image {
+    background-image: url(images/g1\ \(5\).jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 15%;
+    padding-left: 2px;
+    height: 60px;
+    line-height: 61px;
+    background-color: rgb(160, 14, 14);
+    border: 1px solid rgb(160, 14, 14);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(160, 14, 14);
+    position: sticky;
+
+}
+
+nav .navbar-brand {
+    color: white;
+    text-decoration: underline;
+    font-family: myf;
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: .5px;
+
+}
+
+nav .nav-list {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav .nav-list .nav-item {
+    cursor: pointer;
+    height: 100%;
+    width: 150px;
+    text-align: center;
+
+}
+
+nav .nav-list .nav-item:hover {
+    border-bottom: 4px solid rgb(160, 14, 14);
+    background: white;
+}
+
+nav .nav-list .nav-item:hover .nav-link,
+nav .nav-list .nav-item:hover .bx-chevron-down {
+    color: rgb(160, 14, 14);
+    font-size: 25px;
+}
+
+nav .nav-list .nav-item .nav-link {
+    color: #f1f1f1;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: jfont;
+}
+
+nav .nav-list .nav-item .bx-chevron-down {
+    color: #f1f1f1;
+    margin-left: 0;
+    font-size: 26px;
+    transform: translateY(4px);
+}
+
+nav .dropdown-list {
+    background: rgba(100, 97, 97, 0.597);
+    width: 150px;
+    padding: 8px 30px;
+    text-align: left;
+    line-height: 50px;
+    border-radius: 0 0 3px 3px;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(20px);
+    transition: .4s;
+}
+
+nav .nav-list .nav-item:hover .dropdown-list {
+    opacity: 1;
+    pointer-events: visible;
+    transform: translateY(-3px);
+}
+
+nav .dropdown-list .dropdown-item {
+    font-size: 18px;
+    font-weight: 500;
+    color: #f1f1f1;
+}
+
+nav .dropdown-list .dropdown-item:hover {
+    color: rgb(160, 14, 14);
+}
+
+
+
+
+#sear {
+    padding-left: 5px;
+    border: 2px solid;
+    border-radius: 20px;
+    font-size: 15.4px;
+}
+
+#search:hover {
+    background-color: rgb(160, 14, 14);
+}
+
+#singups {
+
+    background-color: rgb(160, 14, 14);
+}
+
+
+
+#singups button a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+}
+
+#singups button {
+    padding-top: 23px;
+    margin-left: 290%;
+    background-color: rgb(160, 14, 14);
+    border: none;
+}
+
+.thought {
+    display: block;
+    background-color: rgb(160, 14, 14);
+    height: 200px;
+
+}
+
+.name1 {
+    padding-left: 970px;
+}
+
+.thoughtblock {
+    padding-top: 70px;
+    font-size: larger;
+    color: white;
+}
+
+.parab,
+img {
+    height: 558px;
+    width: 373px;
+}
+
+.paraa,
+.parac {
+    border: 2px solid black;
+    height: auto;
+    width: fit-content;
+    font-size: 19px;
+    background-image: url(images/g1\ \(9\).jpg);
+    background-size: cover;
+    height: auto;
+    opacity: 85%;
+    color: #569DAA;
+    text-align: justify;
+
+}
+
+.grid {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 558px;
+}
+
+.header-name {
+    color: white;
+    border: 1px solid red;
+    background-color: #ED2B2A;
+    text-align: center;
+    font-size: larger;
+}
+
+
+
+.facts {
+    border: 2px solid black;
+    height: auto;
+    width: fit-content;
+    text-align: justify;
+    font-size: 20px;
+    background-image: url(images/g1\ \(9\).jpg);
+    background-size: cover;
+    height: auto;
+    opacity: 85%;
+    color: #569DAA;
+    border-top-width: 25px;
+}
+
+.pic {
+    padding-right: 10%;
+    padding-top: 5%;
+    border: 1px solid black;
+    border-left: 0px;
+    /* border-radius: 10%; */
+
+}
+
+.img {
+    width: 80%;
+    height: 75%;
+    border: 5px solid red;
+    border-radius: 10%;
+}
+
+.text {
+   
+    width: 500px;
+    padding-left: 1%;
+    font-size: 50px;
+    background-color: antiquewhite;
+    font-family: myf;
+}
+
+.real {
+    padding-right: 10px;
+}
+
+.awards {
+    border: 2px solid red;
+    border-right: 0px;
+    height: auto;
+    width: 800px;
+    font-size: 25px;
+    
+}
+
+.awardfig {
+    display: flex;
+    flex-wrap: nowrap;
+    background-image: url(images/g1\ \(8\).jpg);
+}
+
+.logo {
+    height: 2px;
+    width: 1px;
+}
+
+#tr {
+    font-size: 40px;
+}
+
+
+.movies {
+    display: grid;
+    background-image: url(images/g1\ \(10\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.movies h1 {
+    display: grid;
+    justify-content: center;
+    font-size: 50px;
+    font-family: font;
+    color: #7086c3;
+}
+
+.ironmanimage img {
+    float: left;
+    width: auto;
+
+}
+
+.ironmanimage img {
+    position: relative;
+    top: -100px;
+    right: 50px;
+    animation: animateUser 3s linear infinite;
+}
+
+@keyframes animateUser {
+    50% {
+        right: 30px;
+        top: -90px;
+    }
+}
+
+.movie-name-heading {
+    font-size: 60px;
+    font-family: myfont;
+    align-items: center;
+}
+
+.ironmaninfo p {
+    font-size: 20px;
+
+}
+
+.ironmaninfo {
+    width: 40%;
+    float: right;
+    padding-right: 70px;
+}
+
+.movies2 {
+    display: grid;
+    background-image: url(images/g1\ \(10\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.imgchaplin img {
+    float: right;
+    width: auto;
+}
+
+.imgchaplin img {
+    position: relative;
+    top: -100px;
+    right: 50px;
+    animation: animateUser 3s linear infinite;
+}
+
+@keyframes animateUser {
+    50% {
+        right: 30px;
+        top: -90px;
+    }
+}
+
+.imgchaplin {
+    padding-top: 40px;
+}
+
+.info-chaplin p {
+    font-size: 20px;
+
+}
+
+.info-chaplin {
+    width: 40%;
+    float: left;
+    padding-left: 70px;
+    padding-top: 10%;
+}
+
+.movies3 {
+    display: grid;
+    background-image: url(images/g1\ \(10\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.third {
+    display: flex;
+}
+
+.homesimg {
+    float: left;
+    padding-top: 90px;
+}
+
+.homesimg img {
+    width: auto;
+    padding-left: 0px;
+}
+
+.homesimg img {
+    position: relative;
+    top: -100px;
+    right: 50px;
+    animation: animateUser 3s linear infinite;
+}
+
+@keyframes animateUser {
+    50% {
+        right: 30px;
+        top: -90px;
+    }
+}
+
+.infoholmes p {
+    font-size: 20px;
+
+}
+
+.infoholmes {
+    width: 40%;
+    float: right;
+    padding-right: 70px;
+    padding-top: 140px;
+}
+
+.footp {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons img {
+    width: 70px;
+    height: 80%;
+}
+
+.git a {
+    text-decoration: none;
+    color: black;
+}
+
+.git1 {
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+#git {
+    margin-left: 10px;
+}
+
+footer h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.footerbuttons {
+    display: flex;
+    justify-content: center;
+}
+
+.wiki {
+    padding-left: 100px;
+}
+
+footer {
+    /* background-image: url(f4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: #FA9884;
+}
+
+.git:hover {
+    box-shadow: 2px 2px;
+    background-color: #7086c3;
+}
+
+.multiText {
+    color: #7f00ff;
+    font-family: jfont;
+}
+
+footer {
+    border-top: 5px solid black;
+}
+
+.a {
+    background-color: white;
+}
+
+.b {
+    background-color: #FA9884;
+}
+
+.back {
+    color: black;
+    background-color: inherit;
+    border: none;
+    font-size: x-large;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.back1 {
+    display: flex;
+    justify-content: center;
+}
+
+#ab {
+    text-decoration: none;
+    color: black;
+}
+
+#ab:hover {
+    color: #569DAA;
+}

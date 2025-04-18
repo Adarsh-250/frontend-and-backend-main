@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: font;
+            src: url(Rush\ Turbo.ttf);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'poppins', sans-serif;
+
+        }
+
+        .container {
+            width: 100%;
+            height: 560px;
+            background: #f2e9ff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url(images/g1\ \(4\).jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .gallery {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .img-box {
+            width: 100px;
+            height: 450px;
+            margin: 10px;
+            border-radius: 50px;
+            background: url(images/g1\ \(1\).jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            transition: width 1s;
+            filter: grayscale(100%);
+        }
+
+        .img-box:nth-child(2) {
+            background: url(images/g1\ \(1\).png);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img-box:nth-child(3) {
+            background: url(images/g1\ \(2\).jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img-box:nth-child(4) {
+            background: url(images/g1\ \(3\).jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img-box h3 {
+            color: #fff;
+            position: absolute;
+            bottom: 0;
+            left: 30px;
+            opacity: 0;
+            transition: bottom .5s, opacity .5s;
+        }
+        .img-box h4 {
+            color: #e50000;
+            position: absolute;
+            bottom: 0px;
+            left: 30px;
+            opacity: 0;
+            transition: bottom .5s, opacity .5s;
+        }
+
+        .img-box:hover {
+            width: 300px;
+            cursor: pointer;
+            filter: none;
+        }
+
+        .img-box:hover h3 {
+            opacity: 1;
+            bottom: 65px;
+        }
+        .img-box:hover h4 {
+            opacity: 1;
+            bottom: 25px;
+        }
+        
+        .cont {
+            display: flex;
+            justify-content: center;
+            background-color: rgb(250, 224, 191);
+        }
+        .cont h1{
+            font-family: font;
+            color: #FF9677;
+        }
+        .logo1 a img{
+            height: 20px;
+            width: 20px;
+            
+        }
+        #logo1{
+            padding-left: 30px; 
+        }
+        #logo2 a img{
+            padding-left: 60px;
+            height: 30px;
+            width: 30px;
+        }
+        #logo2 {
+            padding-top: 2000px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="cont">
+        <h1>TEAM MEMBERS</h1>
+    </div>
+    <div class="container">
+        <div class="gallery">
+            <div class="img-box">
+                <h3>Adarsh Gupta</h3>
+                <h4 class="logo1 cs"><a href="https://www.linkedin.com/feed/" target="_blank" class="git1" id="git"><img
+                    src="images/g1 (3).png" /></a></h4>
+                <h4 class="logo1 cs" id="logo1"><a href="https://github.com/" target="_blank" class="git1"><img
+                    src="https://i.postimg.cc/BQFPkp2r/github-sign.png" /></a></h4> 
+                <h4 class="logo1" id="logo2"><a href="https://github.com/" target="_blank" class="git1"><img
+                    src="images/g1 (2).png" /></a></h4>   
+            </div>
+            <div class="img-box">
+                <h3>Adarsh Pathak</h3>
+                <h4 class="logo1"><a href="https://www.linkedin.com/feed/" target="_blank" class="git1" id="git"><img
+                    src="images/g1 (3).png" /></a></h4>
+                <h4 class="logo1" id="logo1"><a href="https://github.com/" target="_blank" class="git1"><img
+                    src="https://i.postimg.cc/BQFPkp2r/github-sign.png" /></a></h4> 
+                <h4 class="logo1" id="logo2"><a href="https://github.com/" target="_blank" class="git1"><img
+                    src="images/g1 (2).png" /></a></h4>
+            </div>
+            <div class="img-box">
+                <h3>Adarsh Ranjan</h3>
+                <h4 class="logo1"><a href="https://www.linkedin.com/feed/" target="_blank" class="git1" id="git"><img
+                    src="images/g1 (3).png" /></a></h4>
+                <h4 class="logo1" id="logo1"><a href="https://github.com/" target="_blank" class="git1"><img
+                    src="https://i.postimg.cc/BQFPkp2r/github-sign.png" /></a></h4> 
+                <h4 class="logo1" id="logo2"><a href="https://github.com/" target="_blank" class="git1"><img
+                    src="images/g1 (2).png" /></a></h4>
+            </div>
+            <div class="img-box">
+                <h3>Aditi</h3>
+                <h4 class="logo1"><a href="https://www.linkedin.com/feed/" target="_blank" class="git1" id="git"><img
+                    src="images/g1 (3).png" /></a></h4>
+                <h4 class="logo1" id="logo1"><a href="https://github.com/" target="_blank" class="git1"><img
+                    src="https://i.postimg.cc/BQFPkp2r/github-sign.png" /></a></h4> 
+                <h4 class="logo1" id="logo2"><a href="https://github.com/" target="_blank" class="git1"><img
+                    src="images/g1 (2).png" /></a></h4>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
